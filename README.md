@@ -34,7 +34,7 @@ Content-Type: application/json
 
 > 800
 
-## 목적
+## 실습
 서비스의 테스트 코드를 작성하세요.
 
 1. 정상적인 테스트
