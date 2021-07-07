@@ -1,6 +1,10 @@
 # Spock Test Framework
 
-## 서비스 개요
+## 강의 자료
+
+[SpockFramework.pptx](https://stash.wemakeprice.com/projects/EDU/repos/spock/browse/docs/SpockFramework.pptx)
+
+## 실습 서비스 개요
 주문을 받아 총 주문의 총액을 출력하는 서비스입니다. 
 
 ## 준비 사항
