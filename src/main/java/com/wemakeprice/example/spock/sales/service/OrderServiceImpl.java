@@ -23,7 +23,11 @@ public class OrderServiceImpl {
 
         long amount = 0;
         for (OrderDTO.Item item : orderDTO.getItems()) {
-            amount += productMap.get(item.getProductId()).getPrice();
+            if (item.getCount() <= 0) {
+                throw new RuntimeException("0봊다 작은 수가 입력되었습니다.");
+            }
+
+            amount += productMap.get(item.getProductId()).getPrice() * item.getCount();
         }
         return amount;
     }
